@@ -21,7 +21,6 @@ sudo apt install -y qt6-base-dev nlohmann-json3-dev cmake g++
 From project root:
 
 ```bash
-cd client
 cmake -S . -B build
 cmake --build build -j
 ```
@@ -29,7 +28,6 @@ cmake --build build -j
 ## Run
 
 ```bash
-cd client
 ./build/pingram_client
 ```
 
